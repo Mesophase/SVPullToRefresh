@@ -45,7 +45,6 @@ typedef NS_ENUM(NSUInteger, SVPullToRefreshState) {
 @property (nonatomic, strong, readonly) UILabel *subtitleLabel;
 @property (nonatomic, strong, readwrite) UIColor *activityIndicatorViewColor NS_AVAILABLE_IOS(5_0);
 @property (nonatomic, readwrite) UIActivityIndicatorViewStyle activityIndicatorViewStyle;
-@property (nonatomic, strong, readwrite) UIColor *activityIndicatorViewColor;
 
 @property (nonatomic, readonly) SVPullToRefreshState state;
 @property (nonatomic, readonly) SVPullToRefreshPosition position;
