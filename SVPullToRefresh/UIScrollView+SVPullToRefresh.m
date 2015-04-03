@@ -175,6 +175,7 @@ static char UIScrollViewPullToRefreshView;
         
         // default styling values
         self.activityIndicatorViewStyle = UIActivityIndicatorViewStyleGray;
+        self.activityIndicatorViewColor = [UIColor whiteColor];
         self.textColor = [UIColor darkGrayColor];
         self.autoresizingMask = UIViewAutoresizingFlexibleWidth;
         self.state = SVPullToRefreshStateStopped;
